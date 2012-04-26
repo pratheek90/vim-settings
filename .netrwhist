@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/cfeduke/Projects/mp5_server'
+let g:netrw_dirhist_2='/Users/cfeduke/Projects'
+let g:netrw_dirhist_3='/Users/cfeduke/Projects/mp5_server'
+let g:netrw_dirhist_4='/Users/cfeduke/.oh-my-zsh/custom/wibi'
+let g:netrw_dirhist_5='/Users/cfeduke/Projects/devils_dare_race/devils_dare/.bundle'

@@ -56,10 +56,15 @@ set laststatus=2                  " Show the status line all the time
 " Or use vividchalk
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
-let g:solarized_degrade=1
+"let g:solarized_degrade=1
 
-set background=dark
 colorscheme solarized
+
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
 
 "map leader to comma
 let mapleader = ","
@@ -146,4 +151,7 @@ nmap <leader>b :FufBuffer<CR>
 nmap <leader>t :FufTaggedFile<CR>
 noremap <leader>j :FufLine<CR>
 
+hi CursorLine   cterm=NONE ctermbg=black guibg=#e4e4e4
+hi CursorColumn cterm=NONE ctermbg=black guibg=#e4e4e4
+nnoremap <leader>c :set cursorline! cursorcolumn!<CR>
 

@@ -27,4 +27,3 @@ set antialias                     " MacVim: smooth fonts.
 
 set guioptions-=r                 " Don't show right scrollbar
 
-
