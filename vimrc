@@ -62,6 +62,7 @@ colorscheme solarized
 
 if has('gui_running')
 	set background=light
+	set guioptions=egmrt
 else
 	set background=dark
 endif
