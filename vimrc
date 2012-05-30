@@ -156,3 +156,15 @@ hi CursorLine   cterm=NONE ctermbg=black guibg=#e4e4e4
 hi CursorColumn cterm=NONE ctermbg=black guibg=#e4e4e4
 nnoremap <leader>c :set cursorline! cursorcolumn!<CR>
 
+" from http://zwiener.org/vimautocomplete.html
+" complete options (disable preview scratch window)
+set completeopt=menu,menuone,longest
+" limit popup menu height
+set pumheight=15
+" supertab option for context aware completion
+let g:SuperTabDefaultCompletionType = "context"
+" disable autopopup, use <Tab> to autocomplete
+let g:clang_complete_auto = 0
+" show clang errors in the quickfix window
+let g:clang_complete_copen = 1
+

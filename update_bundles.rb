@@ -21,7 +21,10 @@ git_bundles = [
   "git://github.com/tsaleh/vim-supertab.git",
   "git://github.com/tsaleh/vim-tcomment.git",
   "git://github.com/vim-ruby/vim-ruby.git",
-	"git://github.com/altercation/vim-colors-solarized.git"
+	"git://github.com/altercation/vim-colors-solarized.git",
+	"git://github.com/Rip-Rip/clang_complete.git",
+	"git://github.com/ervandew/supertab.git",
+	"git://github.com/cfeduke/snipmate.vim.git"
 ]
 
 vim_org_scripts = [
@@ -33,7 +36,8 @@ vim_org_scripts = [
   ["fuzzyfinder",   "13961",   "zip"],
   ["l9",  					"13948",   "zip"],
 	["nerdcommenter", "14455",   "zip"],
-  ["wikipedia",  	  "7538",   "tar"]
+  ["wikipedia",  	  "7538",   "tar"],
+	["VimClojure",    "17125",   "zip"]
 ]
 
 other_scripts = [
